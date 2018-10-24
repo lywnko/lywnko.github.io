@@ -1,0 +1,36 @@
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\libnvvp;
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin;
+
+
+d:
+cd  D:\Tensorflow\MNIST
+activate tensorflow-gpu
+python MNIST.py
+Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+name: GeForce GTX 760 major: 3 minor: 0 memoryClockRate(GHz): 1.0715
+pciBusID: 0000:01:00.0
+totalMemory: 2.00GiB freeMemory: 1.64GiB
+physical GPU (device: 0, name: GeForce GTX 760, pci bus id: 0000:01:00.0, compute capability: 3.0)
+End:            2018-07-14 02:38:41
+Spend Time:         0:05:19.926088
+
+CPU×é 	
+x5650x2 Spend Time: 0:32:35
+i7-3770 Spend Time: 0:26:50
+GPU×é 	
+G940M 	Spend Time: 0:12:13
+GT1060 	Spend Time: 0:01:48
+
+Y50
+Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+name: GeForce GTX 860M major: 5 minor: 0 memoryClockRate(GHz): 1.0195
+pciBusID: 0000:01:00.0
+totalMemory: 1.96GiB freeMemory: 1.59GiB
+physical GPU (device: 0, name: GeForce GTX 860M, pci bus id: 0000:01:00.0, compute capability: 5.0)
+Start:		2018-07-22 01:58:30
+End:		2018-07-22 02:02:43
+Spend Time:	0:04:13.177798
+
+
+
+

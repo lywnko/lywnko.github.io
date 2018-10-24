@@ -1,0 +1,35 @@
+sudo tlp stat      #显示所有信息和设置
+
+sudo tlp stat -b #只显示电池信息　 			相当于 sudo tlp-stat --battery
+
+sudo tlp stat -c #只显示配置信息 			相当于 sudo tlp-stat --config
+
+sudo tlp stat -r  #显示无线设备信息 	  		相当于 sudo tlp-stat -rfkill
+
+sudo tlp stat -t #只显示温度和风扇转速　	相当于 sudo tlp-stat --temp
+
+sudo tlp stat -T #显示debug信息　　(/var/log/debug)
+
+如果想要关闭TLP,  sudo gedit /etc/default/tlp  
+将其中的　＂TLP_ENABLE=1＂　改为　＂TLP_ENABLE=0＂即可．
+如果想要定制更多的东西，也可以去配置这个文件．
+要删除tlp，请打开终端并运行命令：sudo apt-get remove --autoremove tlp
+要删除PPA，请启动Software＆Updates并导航到“其他软件”选项卡。
+
+ netstat -tupln|grep 5900
+
+远程连接
+vncserver -kill :1
+vncserver :1
+ sudo service xrdp restart
+ sudo vi ~/.vnc/xstartup
+
+
+2318518647
+1374158536
+
+用户名称	用户邮箱	注册信息	订单时间	状态
+李文富	lywnko@qq.com	产品名：CrossOver 17 标准版 单用户 终身 序列号 Linux
+注册名：李文富
+注册码：WTM-EKGV-C2AC-VHFACWXZ
+	2018-10-06 23:34:38	已出码
